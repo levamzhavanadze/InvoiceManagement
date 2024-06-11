@@ -88,6 +88,7 @@ namespace WebAPIAuth.Controllers
             {
                 passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
                 passwordSalt = hmac.Key;
+
             }
         }
 

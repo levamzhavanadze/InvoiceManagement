@@ -16,8 +16,8 @@ namespace WebAPIAuth.Data
 
         public DbSet<User> users { get; set; }
         public DbSet<Customer> customer { get; set; }
-        //public DbSet<Invoice> invoice { get; set; }
-        //public DbSet<InvoiceItem> invoiceItems { get; set; }
+        public DbSet<Invoice> invoice { get; set; }
+        public DbSet<InvoiceItem> invoiceItems { get; set; }
         //public DbSet<Payment> payment { get; set; }
 
     }

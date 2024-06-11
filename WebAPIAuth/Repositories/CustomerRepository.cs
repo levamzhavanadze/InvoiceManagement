@@ -6,12 +6,10 @@ namespace WebAPIAuth.Repositories
 {
     public class CustomerRepository : ICustomer
     {
-        //private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly DataContext _context;
 
         public CustomerRepository(DataContext context)
         {
-          //  _httpContextAccessor = httpContextAccessor;
             _context = context;
         }
 
@@ -21,7 +19,14 @@ namespace WebAPIAuth.Repositories
             _context.customer.Add(customer);
             _context.SaveChanges();
             
-
         }
+
+        public List<Customer> GetAll() 
+        {
+           var customers =  _context.customer.ToList();
+
+            return customers;
+        }
+
     }
 }

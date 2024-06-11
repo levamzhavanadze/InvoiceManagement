@@ -8,15 +8,17 @@ namespace WebAPIAuth.Models.Invoices
 
         public int Id { get; set; }
 
-        public Invoice invoiceId { get; set; }
+        public Invoice Invoice { get; set; }
 
-        public string item {  get; set; }
+        public int InvoiceId { get; set; }
 
-        public int quantity { get; set; }
+        public string Item {  get; set; }
 
-        public decimal price { get; set; }  
+        public int Quantity { get; set; }
 
-        public decimal amount {  get; set; }
+        public decimal Price { get; set; }  
+
+        public decimal Amount {  get; set; }
 
 
     }

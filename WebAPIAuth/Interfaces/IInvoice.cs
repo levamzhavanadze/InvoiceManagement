@@ -4,10 +4,10 @@ namespace WebAPIAuth.Interfaces
 {
     public interface IInvoice
     {
-        void AddInvoice(List<InvoiceItem> items);
+       void AddInvoice(Invoice invoice);
 
-        void PayInvoice();
+        //void PayInvoice();
 
-        void CancelPayment();
+        //void CancelPayment();
     }
 }

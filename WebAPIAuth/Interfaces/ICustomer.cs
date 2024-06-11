@@ -6,5 +6,7 @@ namespace WebAPIAuth.Interfaces
     {
 
         void AddCustomer(Customer customer);
+
+        List<Customer> GetAll();
     }
 }

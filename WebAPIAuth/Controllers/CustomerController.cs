@@ -31,6 +31,15 @@ namespace WebAPIAuth.Controllers
 
         }
 
+        [HttpGet("Customers"), Authorize(Roles = "Admin")]
+        public ActionResult<Customer> GetAllCustomers()
+        {
+            var customers = _customer.GetAll();
+
+            return Ok(customers);
+
+        }
+
 
     }
 }
