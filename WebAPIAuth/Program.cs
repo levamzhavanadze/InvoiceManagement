@@ -17,6 +17,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ICustomer, CustomerRepository>();
+
+
+
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddDbContext<DataContext>(option =>
 {
