@@ -10,7 +10,8 @@
         public byte[] PasswordSalt { get; set; }
 
         public string? RefreshToken { get; set; }
-        public string Role { get; set; } = "Consumer";
+
+        public string Role { get; set; }
 
         public DateTime Created { get; set; }
 

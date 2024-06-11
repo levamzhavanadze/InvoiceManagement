@@ -36,7 +36,7 @@ namespace WebAPIAuth.Repositories
         }
 
 
-        public User GetUser(UserDto user)
+        public User GetUser(UserLoginDto user)
         {
             var u = _context.users.Where(i => i.Username == user.Username).FirstOrDefault();
 

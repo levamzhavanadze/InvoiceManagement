@@ -7,7 +7,7 @@ namespace WebAPIAuth.Interfaces
         string GetName();
         void AddUser(User user);
         void CreateUser(User user);
-        User GetUser(UserDto user);
+        User GetUser(UserLoginDto user);
         List<User> GetAllUsers();
 
 

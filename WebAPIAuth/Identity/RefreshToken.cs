@@ -1,4 +1,4 @@
-﻿namespace WebAPIAuth
+﻿namespace WebAPIAuth.Identity
 {
     public class RefreshToken
     {
