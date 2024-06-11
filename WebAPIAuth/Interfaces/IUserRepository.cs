@@ -1,4 +1,4 @@
-﻿using WebAPIAuth.Users;
+﻿using WebAPIAuth.Models.Users;
 
 namespace WebAPIAuth.Interfaces
 {

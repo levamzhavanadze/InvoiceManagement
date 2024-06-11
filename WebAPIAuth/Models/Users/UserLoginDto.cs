@@ -1,4 +1,4 @@
-﻿namespace WebAPIAuth.Users
+﻿namespace WebAPIAuth.Models.Users
 {
     public class UserLoginDto
     {

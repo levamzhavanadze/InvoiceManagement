@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebAPIAuth.Users;
+using WebAPIAuth.Models.Users;
 
 namespace WebAPIAuth.Data
 {

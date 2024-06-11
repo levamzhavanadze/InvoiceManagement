@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebAPIAuth.Interfaces;
-using WebAPIAuth.Users;
 using System.Security.Cryptography;
 using System.Text;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
@@ -10,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authorization;
 using WebAPIAuth.Identity;
+using WebAPIAuth.Models.Users;
 
 namespace WebAPIAuth.Controllers
 {

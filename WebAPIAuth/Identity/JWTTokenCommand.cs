@@ -4,8 +4,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using WebAPIAuth.Users;
 using System.Security.Cryptography;
+using WebAPIAuth.Models.Users;
 
 namespace WebAPIAuth.Identity
 {

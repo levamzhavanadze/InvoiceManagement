@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
 using WebAPIAuth.Data;
 using WebAPIAuth.Interfaces;
-using WebAPIAuth.Users;
+using WebAPIAuth.Models.Users;
 
 namespace WebAPIAuth.Repositories
 {
